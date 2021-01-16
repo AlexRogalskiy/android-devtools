@@ -1,0 +1,8 @@
+on screen ruler drawing on top of other windows
+    Bare linke til material cue?
+    https://github.com/Actinarium/Rhythm/wiki/Comparison-of-Rhythm-and-Material-Cue
+font info app?
+cam info app
+sensor info app
+network info app
+memory filler app

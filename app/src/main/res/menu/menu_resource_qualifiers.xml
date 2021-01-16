@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_collapse"
+        android:icon="@drawable/ic_fold"
+        android:title="@string/collapse_view"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_expand"
+        android:icon="@drawable/ic_unfold"
+        android:title="@string/expand_view"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share_configuration"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_copy"
+        android:title="Copy configuration to clipboard"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_log"
+        android:title="Write configuration to system log"
+        app:showAsAction="never" />
+</menu>

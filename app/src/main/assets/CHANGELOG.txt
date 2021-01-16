@@ -1,0 +1,97 @@
+Changelog for Developer Tools
+
+List of changes, newest changes first.
+('+' = new feature, '-' = removed feature, '*' = changed feature)
+
+Version 2.1.1
+ * Bugfix: App crashed on larger screen sized (like Android TV). Bug introduced in version 2.1.0.
+ * Bugfix: Fix for rare issue on some devices when fetching the app version for sharing data and the about dialog.
+Version 2.1.0
+ * Build and targeted with Android 11 (API level 30).
+ * Migrated from Android support library to AndroidX.
+ * Bugfix: App crashed on Android Pie when clicking about dialog or sharing data.
+Version 2.0.9
+ * Build and targeted with Android 9: Pie (API level 28).
+ + Added support for wide Color Gamut and High Dynamic Range (HDR).
+ + Added support for resource qualifier UI mode vrheadset.
+Version 2.0.8
+ + Added link to Clean Status Bar (min. API level 15/version 4.0.3).
+Version 2.0.7
+ * Built and targeted with Android 7.1: Nougat MR1 (API level 25).
+ * App can now be moved to SD card ("external location" is set as preferred).
+Version 2.0.6
+ + Added banner to be able to make it available for Android TV in Play Store.
+Version 2.0.5
+ + Added declaration for leanback (Android TV) support.
+Version 2.0.4
+ * Rebuild without requirement for touch screen.
+Version 2.0.3
+ * Build and targeted with Android 7.0: Nougat (API level 24).
+ * Lib updates.
+ * Bugfix: Left side menu wasn't scrollable for tablets and Android TV and other wide screens.
+Version 2.0.2
+ * Rebuild app with logo without the letter "a" from Android's custom typeface after Google's removal of the app.
+ * Lib updates.
+Version 2.0.1
+ * Removed Activity transitions because of mysterious stack traces reported.
+Version 2.0.0
+ * Total rewrite of app with Material Design.
+ + Added support for smallestWidth, available width, available height, round screen.
+ * Added proper values for MCC + MNC and language and region.
+ * Built and targeted with Android 6.0: Marshmallow (API level 23).
+Version 1.1.3
+ + Added support for Android TV.
+ - Removed link to Get Camera Parameters as the app is removed from Play Store.
+ * Built and targeted with Android 5.1: Lollipop (API level 22).
+Version 1.1.2
+ * Added info about permission manager only working for certain Android
+   versions.
+ * Improved exception handling for when permission manager is not supported.
+ * Built and targeted with Android 5.0: Lollipop (API level 21).
+Version 1.1.1
+ * Fix for opening Android 4.4's permission manager (App Ops).
+Version 1.1.0
+ * Built and targeted with Android 4.4: KitKat (API level 19).
+ + Added support for resource qualifiers xxhdpi and xxxhdpi.
+Version 1.0.9
+ * Rebuild because of bug in earlier version of Android Developer Tools (ADT).
+   See http://code.google.com/p/android/issues/detail?id=56006 for details.
+Version 1.0.8
+ * Built and targeted with Android 4.3: Jelly Bean MR2 (API level 18).
+ * Using US locale when formatting numbers to make app completely consistent.
+ + Added link to Android 4.3's permission manager (App Ops).
+Version 1.0.7
+ + Added link to Get Camera Parameters.
+ * Added more screen dimensions data.
+Version 1.0.6
+ + Added screen dimensions.
+ * Settings and third party apps are started now started in a new task.
+Version 1.0.5
+ * Built and targeted with Jelly Bean (API level 17).
+ * "Android Market" --> "Play Store".
+ + Added support for resource qualifier for layout direction (left to right and
+   right to left).
+ * Added borders between elements in resource qualifier list.
+ + Added rate button in about dialog.
+Version 1.0.4
+ * Built and targeted with Jelly Bean (API level 16 r1).
+ * "Dock mode" is renamed to "UI mode".
+ + Added support for resource qualifier UI modes television and appliance.
+ * Bugfix: In some rare (3) cases there's been a NPE when starting development
+   settings.
+Version 1.0.3
+ * Minor changes.
+ * Link to development settings now works for LG GW620 Eve (Android 1.5)  (and
+   others?).
+ + Added link to ManifestViewer.
+Version 1.0.2
+ * Changed app icon.
+ * Some UI adjustments
+ + Added link to applications/application settings.
+ * System features are sorted alphabetically.
+Version 1.0.1
+ * aLogcat button now also tries to start donate/paid version.
+ + Added error handling if Android Market isn't installed.
+ * Minor bugfixes.
+Version 1.0.0
+ + Initial release.
